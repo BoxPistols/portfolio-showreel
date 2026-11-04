@@ -150,8 +150,9 @@ a { color: var(--accent); text-underline-offset: 3px; }
   color: var(--text-muted);
   max-width: 65ch;
 }
-.hero { padding-bottom: var(--space-7); }
-.works { padding-bottom: var(--space-8); }
+/* margin, not padding: .wrap's padding shorthand in the media query would reset it */
+.hero { margin-bottom: var(--space-7); }
+.works { margin-bottom: var(--space-8); }
 
 video {
   display: block;

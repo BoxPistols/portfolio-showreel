@@ -59,6 +59,9 @@ body {
   font-size: var(--text-base);
   line-height: 1.7;
   font-feature-settings: "palt" 1;
+  /* macOS renders light-on-dark text with subpixel smoothing that looks heavier than intended */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a { color: var(--accent); text-underline-offset: 3px; }
@@ -161,6 +164,16 @@ video {
   aspect-ratio: 16 / 9;
   background: var(--player-bg);
 }
+/* Text tracks are off by default because the captions are burned into the video. When a viewer
+   turns them on, the cues (placed at the top by the VTT) stay compact on a translucent plate. */
+video::cue {
+  font-family: var(--font-sans);
+  font-size: 70%;
+  line-height: 1.45;
+  color: #f5f7fa;
+  background: rgba(11, 14, 19, 0.78);
+}
+
 .player video {
   border: 1px solid var(--border);
   border-radius: var(--radius);

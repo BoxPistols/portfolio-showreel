@@ -1,26 +1,26 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.733
+00:00:00.000 --> 00:00:03.333 line:4% position:50% align:center size:90%
 南陽市DX Prompts（自治体の生成 AI プロンプト集を Web アプリに）
 南陽市の生成 AI プロンプト実例集を、探して・埋めて・貼るだけで使えるように
 
 2
-00:00:03.800 --> 00:00:08.833
+00:00:03.800 --> 00:00:08.433 line:4% position:50% align:center size:90%
 表記ゆれに強い検索。正規化・関連語展開・bigram のあいまい一致でスコア順に並べる
 src/utils/search.js
 
 3
-00:00:08.900 --> 00:00:13.933
+00:00:08.900 --> 00:00:13.533 line:4% position:50% align:center size:90%
 元ページの HTML から入力フォームを組み直し、埋めた内容がそのままプロンプトに入る
 src/utils/promptContent.js
 
 4
-00:00:14.000 --> 00:00:19.033
+00:00:14.000 --> 00:00:18.633 line:4% position:50% align:center size:90%
 南陽市の公開リポジトリと毎日同期。SHA を比べて差分だけを取り込む
 scraper/sync_upstream.py · .github/workflows/sync-nanyo-data.yml
 
 5
-00:00:19.033 --> 00:00:21.633
+00:00:19.033 --> 00:00:21.233 line:4% position:50% align:center size:90%
 南陽市DX Prompts
 nanyo-prompt.vercel.app

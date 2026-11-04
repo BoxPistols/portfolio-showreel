@@ -38,12 +38,12 @@
 <main id="main">
   <section class="wrap hero" aria-labelledby="showreel-title">
     <h2 id="showreel-title" class="section-title">ショーリール</h2>
-    <p class="lead">作って公開している 8 つのプロダクトを 71 秒にまとめました。字幕で、それぞれ AI をどこに使ったかを示しています。音声はありません。</p>
+    <p class="lead">作って公開している 8 つのプロダクトを 71 秒にまとめました。字幕で、それぞれ AI をどこに使ったかを示しています。控えめな BGM が入っていますが、最初は消音です。音はプレーヤーの音量ボタンで出せます。</p>
     <div class="player">
       <video id="showreel" controls muted playsinline preload="metadata"
              poster="media/showreel-poster.png" width="1920" height="1080">
         <source src="media/showreel-1080p.mp4" type="video/mp4">
-        <track kind="captions" src="media/showreel.vtt" srclang="ja" label="日本語" default>
+        <track kind="captions" src="media/showreel.vtt" srclang="ja" label="日本語">
         動画を再生できないブラウザです。<a href="media/showreel-1080p.mp4">MP4 をダウンロード</a>してご覧ください。
       </video>
     </div>
@@ -51,7 +51,7 @@
 
   <section class="wrap works" aria-labelledby="works-title">
     <h2 id="works-title" class="section-title">プロダクトごとの動画</h2>
-    <p class="lead">1 本あたり約 20 秒。画面の操作と、その機能を実装しているファイルを字幕で示しています。</p>
+    <p class="lead">1 本あたり約 20 秒。画面の操作と、その機能を実装しているファイルを字幕で示しています。どれも消音で始まり、BGM はプレーヤーの音量ボタンで出せます。</p>
 
     <ul class="grid" role="list">
       <li class="card">
@@ -201,6 +201,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <p>&copy; 2026 Ito Atsushi. 動画・画像の転載や再利用はご遠慮ください（<a href="https://github.com/BoxPistols/portfolio-showreel/blob/main/LICENSE">LICENSE</a>）。</p>
+    <p>BGM は、この動画のためにプログラムで合成したオリジナルです。</p>
     <p><a href="https://asagiri-design.carrd.co/">asagiri-design.carrd.co</a></p>
   </div>
 </footer>

@@ -1,26 +1,26 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.733
+00:00:00.000 --> 00:00:03.333 line:4% position:50% align:center size:90%
 Astra Flock（ドローンの多数機管理の実験）
 660機の編隊を、ブラウザ上で描いて・振り付けて・管理する
 
 2
-00:00:03.800 --> 00:00:09.833
+00:00:03.800 --> 00:00:09.433 line:4% position:50% align:center size:90%
 3D の点を押すと、その機体に乗って目線で見る。Shift + クリックで別の機体を小窓に足す
 src/routes/show/picking.ts · src/routes/show/pip.ts
 
 3
-00:00:09.900 --> 00:00:14.933
+00:00:09.900 --> 00:00:14.533 line:4% position:50% align:center size:90%
 最大 4 機の目線を小窓で同時に表示。WebGL の context は 1 つのまま描き分ける
 ?pov=AS-042&pip=AS-010,AS-200 で同じ視点を共有できる
 
 4
-00:00:15.000 --> 00:00:20.533
+00:00:15.000 --> 00:00:20.133 line:4% position:50% align:center size:90%
 660機の電池残量と状態を一覧し、機体の詳細からその機体の目線を開く
 機体データはシード固定の生成データ（src/lib/fleet.ts）· ID の対応は src/lib/droneId.ts
 
 5
-00:00:20.533 --> 00:00:23.133
+00:00:20.533 --> 00:00:22.733 line:4% position:50% align:center size:90%
 Astra Flock
 drone-show-astra-flock.vercel.app

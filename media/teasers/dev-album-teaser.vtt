@@ -1,0 +1,26 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.733
+Dev Album（Web 開発の実践リファレンス）
+Claude Code と書いた教材を、出典との照合まで仕組みで確かめて公開する
+
+2
+00:00:03.800 --> 00:00:08.833
+コード例はその場で動く。12 のマニュアルを Web 標準と a11y の観点で解説
+client/src/components/CodePreview.tsx
+
+3
+00:00:08.900 --> 00:00:13.933
+Claude Code のサブエージェント 7 種とスキル 8 種を、実ファイルと突き合わせて公開
+client/src/lib/implementation-drift.test.ts
+
+4
+00:00:14.000 --> 00:00:19.033
+AI が書いた記述は、判定 JSON と出典をスクリプトで逐語照合してから載せる
+pnpm check:verdicts → scripts/verify-verdicts.mjs
+
+5
+00:00:19.033 --> 00:00:21.633
+Dev Album
+dev-album.vercel.app

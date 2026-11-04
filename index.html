@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ito Atsushi 作品動画 | Product Engineer ／ Frontend</title>
+<meta name="description" content="Ito Atsushi が作って公開しているプロダクトの紹介動画。8 つのプロダクトを 71 秒にまとめたショーリールと、プロダクトごとの約 20 秒の動画を載せています。">
+<meta name="color-scheme" content="dark light">
+<link rel="canonical" href="https://boxpistols.github.io/portfolio-showreel/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ito Atsushi">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:url" content="https://boxpistols.github.io/portfolio-showreel/">
+<meta property="og:title" content="Ito Atsushi 作品動画 | Product Engineer ／ Frontend">
+<meta property="og:description" content="8 つのプロダクトを 71 秒にまとめたショーリールと、プロダクトごとの短い動画。">
+<meta property="og:image" content="https://boxpistols.github.io/portfolio-showreel/media/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ito Atsushi — Product Engineer ／ Frontend。AI導入から実装、サービスデザインまで">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="role">Product Engineer ／ Frontend</p>
+    <h1 class="name">Ito Atsushi</h1>
+    <p class="skills">React・Next.js・TypeScript／Claude Code・MCP・LLM API／デザインシステム・テスト自動化・CI/CD</p>
+    <p class="header-links">
+      <a class="btn btn-primary" href="https://asagiri-design.carrd.co/">ポートフォリオに戻る</a>
+      <a class="btn" href="https://github.com/BoxPistols">GitHub</a>
+    </p>
+  </div>
+</header>
+
+<main id="main">
+  <section class="wrap hero" aria-labelledby="showreel-title">
+    <h2 id="showreel-title" class="section-title">ショーリール</h2>
+    <p class="lead">作って公開している 8 つのプロダクトを 71 秒にまとめました。字幕で、それぞれ AI をどこに使ったかを示しています。音声はありません。</p>
+    <div class="player">
+      <video id="showreel" controls muted playsinline preload="metadata"
+             poster="media/showreel-poster.png" width="1920" height="1080">
+        <source src="media/showreel-1080p.mp4" type="video/mp4">
+        <track kind="captions" src="media/showreel.vtt" srclang="ja" label="日本語" default>
+        動画を再生できないブラウザです。<a href="media/showreel-1080p.mp4">MP4 をダウンロード</a>してご覧ください。
+      </video>
+    </div>
+  </section>
+
+  <section class="wrap works" aria-labelledby="works-title">
+    <h2 id="works-title" class="section-title">プロダクトごとの動画</h2>
+    <p class="lead">1 本あたり約 20 秒。画面の操作と、その機能を実装しているファイルを字幕で示しています。</p>
+
+    <ul class="grid" role="list">
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/kaze-ux-teaser-poster.jpg" width="1280" height="720" aria-label="Kaze Design System の紹介動画">
+          <source src="media/teasers/kaze-ux-teaser.webm" type="video/webm">
+          <source src="media/teasers/kaze-ux-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/kaze-ux-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>Kaze Design System（Storybook）</h3>
+          <p>仕様をMCPでAIエージェントに配り、30本超の検査スクリプトで準拠を確かめるデザインシステム（テスト816件）</p>
+          <p class="links">
+            <a class="btn btn-primary" href="https://kaze-ux.vercel.app/storybook/">アプリを開く</a>
+            <a class="btn" href="https://github.com/BoxPistols/kaze-ux">GitHub</a>
+          </p>
+        </div>
+      </li>
+
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/storybook-concierge-teaser-poster.jpg" width="1280" height="720" aria-label="Storybook Concierge の紹介動画">
+          <source src="media/teasers/storybook-concierge-teaser.webm" type="video/webm">
+          <source src="media/teasers/storybook-concierge-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/storybook-concierge-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>Storybook Concierge</h3>
+          <p>Storybookの全画面に常駐し、表示中の部品を前提に答えるAIチャット。APIキー無しでも応答</p>
+          <p class="links">
+            <a class="btn btn-primary" href="https://storybook-concierge.vercel.app/">アプリを開く</a>
+            <a class="btn" href="https://github.com/BoxPistols/storybook-concierge">GitHub</a>
+          </p>
+        </div>
+      </li>
+
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/adlumetra-teaser-poster.jpg" width="1280" height="720" aria-label="ADLUMETRA の紹介動画">
+          <source src="media/teasers/adlumetra-teaser.webm" type="video/webm">
+          <source src="media/teasers/adlumetra-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/adlumetra-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>ADLUMETRA</h3>
+          <p>広告バナーを配信前にAIで採点し、根拠つきの所見と直す順番を1枚のレポートにまとめる。動画は事前に診断して保存した結果を表示するモックモードで、サンプルのブランド名は架空</p>
+          <p class="links"><span class="note">公開準備中</span></p>
+        </div>
+      </li>
+
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/sumi-agent-teaser-poster.jpg" width="1280" height="720" aria-label="Sumi の紹介動画">
+          <source src="media/teasers/sumi-agent-teaser.webm" type="video/webm">
+          <source src="media/teasers/sumi-agent-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/sumi-agent-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>Sumi</h3>
+          <p>日本語の経歴書から個人情報を検出してマスキング（Lite版はブラウザ内で完結）。動画のサンプルは架空の人物の経歴書</p>
+          <p class="links">
+            <a class="btn btn-primary" href="https://sumi-agent.vercel.app/">アプリを開く</a>
+            <a class="btn" href="https://github.com/BoxPistols/sumi-agent">GitHub</a>
+          </p>
+        </div>
+      </li>
+
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/dev-album-teaser-poster.jpg" width="1280" height="720" aria-label="Dev Album の紹介動画">
+          <source src="media/teasers/dev-album-teaser.webm" type="video/webm">
+          <source src="media/teasers/dev-album-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/dev-album-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>Dev Album</h3>
+          <p>Claude Codeのスキルとサブエージェントで運用し、AIが書いた内容を出典と機械照合するWeb開発の教材サイト</p>
+          <p class="links">
+            <a class="btn btn-primary" href="https://dev-album.vercel.app">アプリを開く</a>
+            <a class="btn" href="https://github.com/BoxPistols/dev-album">GitHub</a>
+          </p>
+        </div>
+      </li>
+
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/ux-writing-dead-cliche-teaser-poster.jpg" width="1280" height="720" aria-label="ux-writing-dead-cliche の紹介動画">
+          <source src="media/teasers/ux-writing-dead-cliche-teaser.webm" type="video/webm">
+          <source src="media/teasers/ux-writing-dead-cliche-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/ux-writing-dead-cliche-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>ux-writing-dead-cliche</h3>
+          <p>AIが日本語に持ち込む決まり文句を136ルールで検出。CLI・textlint・Claude Codeプラグイン・GitHub Actionで動く（npm公開）</p>
+          <p class="links">
+            <a class="btn btn-primary" href="https://boxpistols.github.io/ux-writing-dead-cliche/">ブラウザ版を開く</a>
+            <a class="btn" href="https://github.com/BoxPistols/ux-writing-dead-cliche">GitHub</a>
+          </p>
+        </div>
+      </li>
+
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/drone-show-simulator-teaser-poster.jpg" width="1280" height="720" aria-label="Astra Flock の紹介動画">
+          <source src="media/teasers/drone-show-simulator-teaser.webm" type="video/webm">
+          <source src="media/teasers/drone-show-simulator-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/drone-show-simulator-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>Astra Flock</h3>
+          <p>ドローンの多数機管理の実験。660機の編隊をThree.jsで描き、機体を選んでその視点に乗る・最大4機の視点を同時に表示（Claude Codeで実装）</p>
+          <p class="links">
+            <a class="btn btn-primary" href="https://drone-show-astra-flock.vercel.app/">アプリを開く</a>
+            <a class="btn" href="https://github.com/BoxPistols/drone-show-simulator">GitHub</a>
+          </p>
+        </div>
+      </li>
+
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/drone-mapper-plateau-teaser-poster.jpg" width="1280" height="720" aria-label="DroneMapper の紹介動画">
+          <source src="media/teasers/drone-mapper-plateau-teaser.webm" type="video/webm">
+          <source src="media/teasers/drone-mapper-plateau-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/drone-mapper-plateau-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>DroneMapper</h3>
+          <p>CesiumとPLATEAUの3D都市モデル上で飛行ルートを計画・シミュレーション。AIエージェントが関数呼び出しで操作</p>
+          <p class="links">
+            <a class="btn btn-primary" href="https://boxpistols.github.io/drone-mapper-plateau/">アプリを開く</a>
+            <a class="btn" href="https://github.com/BoxPistols/drone-mapper-plateau">GitHub</a>
+          </p>
+        </div>
+      </li>
+
+      <li class="card">
+        <video controls muted playsinline preload="none" poster="media/teasers/nanyo-prompt-app-teaser-poster.jpg" width="1280" height="720" aria-label="南陽市 プロンプト集の紹介動画">
+          <source src="media/teasers/nanyo-prompt-app-teaser.webm" type="video/webm">
+          <source src="media/teasers/nanyo-prompt-app-teaser.mp4" type="video/mp4">
+          <track kind="captions" src="media/teasers/nanyo-prompt-app-teaser.vtt" srclang="ja" label="日本語">
+        </video>
+        <div class="card-body">
+          <h3>南陽市 プロンプト集</h3>
+          <p>山形県南陽市のDX担当者と直接調整し、公式の許諾を得てWebアプリ化。市の公開データと毎日自動で同期</p>
+          <p class="links">
+            <a class="btn btn-primary" href="https://nanyo-prompt.vercel.app/">アプリを開く</a>
+            <a class="btn" href="https://github.com/BoxPistols/nanyo-prompt-app">GitHub</a>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Ito Atsushi. 動画・画像の転載や再利用はご遠慮ください（<a href="https://github.com/BoxPistols/portfolio-showreel/blob/main/LICENSE">LICENSE</a>）。</p>
+    <p><a href="https://asagiri-design.carrd.co/">asagiri-design.carrd.co</a></p>
+  </div>
+</footer>
+
+<script>
+  // Autoplay only when the viewer has not asked for reduced motion; the video stays muted either way.
+  (function () {
+    var v = document.getElementById('showreel');
+    var mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!v || mq.matches) return;
+    v.autoplay = true;
+    var p = v.play();
+    if (p && p.catch) p.catch(function () {});
+  })();
+</script>
+</body>
+</html>

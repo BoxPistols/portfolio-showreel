@@ -1,0 +1,53 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.733
+Ito Atsushi — Product Engineer ／ Frontend
+AI導入から実装、サービスデザインまで
+
+2
+00:00:04.800 --> 00:00:12.333
+Kaze Design System: AI エージェントが従えるデザインシステム
+AI: MCP サーバーで仕様と禁止パターンを Claude Code や Cursor に配り、check_rule で違反を返す
+
+3
+00:00:12.400 --> 00:00:19.933
+Storybook Concierge: Storybook の全ページに常駐し、見ている部品について答える
+AI: story の title・argTypes・args を実行時に AI へ渡す。キーはサーバーのプロキシだけが持つ
+
+4
+00:00:20.000 --> 00:00:27.533
+ADLUMETRA: 広告バナーを配信前に採点し、根拠と直す順番を 1 枚にまとめる
+AI: Claude の構造化出力を Zod で検証し直す。色数は画素から実測し、実在しない統計はテストで止める
+モックモード（事前に AI で診断して保存した結果）。サンプルのブランド名は架空
+
+5
+00:00:27.600 --> 00:00:35.133
+Sumi: 経歴書の個人情報を見つけて隠す。処理はブラウザの中で完結
+AI: 正規表現・辞書照合・ヒューリスティクスに AI を重ねる 4 層の検出。AI はオプション
+サンプルは架空の人物の経歴書
+
+6
+00:00:35.200 --> 00:00:42.733
+Local UI Builder: 同じ指示を 3 つの UI ライブラリで生成し、仕上がりを並べて比べる
+AI: Claude・OpenAI・Gemini と、Ollama・LM Studio のローカル LLM を切り替えて生成
+
+7
+00:00:42.800 --> 00:00:50.333
+Dev Album: Claude Code と書いた Web 開発の実践リファレンス
+AI: AI が書いた記述は、判定 JSON と出典をスクリプトで逐語照合してから載せる
+
+8
+00:00:50.400 --> 00:00:57.933
+ux-writing-dead-cliche: AI が書きがちな日本語の定型句を検出し、理由と直し方を返す
+AI: 同じ辞書が CLI・textlint・Claude Code プラグイン・GitHub Action で動く
+
+9
+00:00:58.000 --> 00:01:05.533
+Astra Flock: 660 機の編隊を描き、1 機を選んでその目線で見る。小窓で最大 4 機を同時に
+AI: Claude Code と開発。単体テストと Playwright + axe の検査を毎 PR の CI で実行
+
+10
+00:01:05.533 --> 00:01:10.633
+Ito Atsushi
+asagiri-design.carrd.co

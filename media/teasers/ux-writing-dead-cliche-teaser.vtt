@@ -1,0 +1,26 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.733
+ux-writing-dead-cliche（AI の日本語の定型句を検出する辞書）
+AI が書きがちな日本語の定型句を検出し、「なぜ」と「どう直すか」を返す
+
+2
+00:00:03.800 --> 00:00:08.833
+CLI も同じ辞書。検出ごとに理由と直し方を出し、error があれば終了コード 1 で止める
+textlint-rule-ux-writing-dead-cliche@0.18.0 の実出力
+
+3
+00:00:08.900 --> 00:00:13.933
+書き直した文は通り、終了コード 0
+同じ辞書が textlint・Claude Code プラグイン・GitHub Action でも動く
+
+4
+00:00:14.000 --> 00:00:19.033
+ブラウザ版はインストール不要。入力はどこにも送信しない
+GitHub Pages
+
+5
+00:00:19.033 --> 00:00:21.633
+ux-writing-dead-cliche
+boxpistols.github.io/ux-writing-dead-cliche

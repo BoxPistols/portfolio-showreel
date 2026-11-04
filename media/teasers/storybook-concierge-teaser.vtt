@@ -1,0 +1,26 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.733
+Storybook Concierge（デザインシステム利用者向けの AI チャット）
+Storybook の全ページに常駐し、いま見ている部品について答える
+
+2
+00:00:03.800 --> 00:00:08.833
+story の title・説明・argTypes・args を実行時に渡し、そのページについて答える
+.storybook/preview.tsx
+
+3
+00:00:08.900 --> 00:00:13.933
+ページを移れば前提も変わる。キーなしでもページガイドと FAQ の曖昧検索で答える
+src/ChatSupport/hooks/useChatMessage.ts
+
+4
+00:00:14.000 --> 00:00:19.033
+公開ビルドにキーを焼き込まない。/api/ai のプロキシと IP ごとの日次上限で守る
+.storybook/main.cjs · api/ai.ts · lib/ratelimit.ts
+
+5
+00:00:19.033 --> 00:00:21.633
+Storybook Concierge
+storybook-concierge.vercel.app

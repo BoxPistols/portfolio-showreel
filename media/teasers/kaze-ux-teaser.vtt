@@ -1,0 +1,26 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.733
+Kaze Design System（AI エージェントが従えるデザインシステム）
+仕様を MCP で AI エージェントに配り、守られているかを CI が描画して測る
+
+2
+00:00:03.800 --> 00:00:08.833
+トークン・部品仕様・禁止パターンをMCP サーバーで Claude Code や Cursor に配る
+mcp/src/server.ts
+
+3
+00:00:08.900 --> 00:00:13.933
+書いたコードを check_rule に渡すと、違反した禁止パターンの ID と理由が返る
+Storybook の Overview に実際の呼び出しと応答を掲載
+
+4
+00:00:14.000 --> 00:00:19.033
+検査範囲の数字は手書きせず、ビルド時にリポジトリの実ファイルから数える
+src/stories/_shared/aiOverviewData.ts
+
+5
+00:00:19.033 --> 00:00:21.633
+Kaze Design System
+kaze-ux.vercel.app/storybook/
